@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
-import { Grid } from 'gridjs';
-import "gridjs/dist/theme/mermaid.css";
+/*import React, { useState } from 'react';*/
+/*import { Grid } from 'gridjs';*/
+/*import "gridjs/dist/theme/mermaid.css";*/
 /*import logo from './logo.svg';*/
-import './App.css';
+/*import './App.css';*/
 import Alert from 'react-bootstrap/Alert';
 
 function AlertHeading() {
