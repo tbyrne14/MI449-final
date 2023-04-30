@@ -31,4 +31,5 @@ function App() {
   );
 }
 
+export { AlertHeading }; 
 export default App;
