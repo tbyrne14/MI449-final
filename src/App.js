@@ -77,10 +77,10 @@ function Two() {
 function TableTwo() {
   const [myData, setMyData] = useState([]);
   async function getData() {
-    let {data: data,} = await supabase
+    let {data: Data,} = await supabase
       .from('data')
       .select('*')
-      setMyData(data);
+      setMyData(Data);
   }
   getData();
   return (
