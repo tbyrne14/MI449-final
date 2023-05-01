@@ -69,7 +69,7 @@ function Table() {
 function Two() {
   return (
     <div className="After">
-      <p>Below is the table that holds all my inputted information. While working out, I log each of the workouts I complete. As I go through the week I continue to input more data. Once I have a whole week completed then I can start comparing the data when I do the same workouts the next week. The goal is to be able to see my progression in weight per excersize. </p>
+      <p>Below is the table that holds all my inputted information. While working out, I log each of the workouts I complete. As I go through the week I continue to input more data. Once I have a whole week completed then I can start comparing the data when I do the same workouts the next week. The goal is to be able to see my progression in weight per exercise. </p>
     </div>
   )
 }
