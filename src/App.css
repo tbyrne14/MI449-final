@@ -63,3 +63,10 @@
   border-collapse: inherit;
   text-align: center;
 }
+
+.After {
+  font-size: larger;
+  margin: 50px;
+  padding: 10px;
+  text-align: center;
+}
