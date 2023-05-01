@@ -75,18 +75,18 @@ function Two() {
 }
 
 function TableTwo() {
-  const [myData, setMyData] = useState([]);
-  async function getData() {
-    let {data: Data,} = await supabase
-      .from('data')
+  const [myLogs, setMyLogs] = useState([]);
+  async function getLogs() {
+    let {data: logs,} = await supabase
+      .from('logs')
       .select('*')
-      setMyData(Data);
+      setMyLogs(logs);
   }
-  getData();
+  getLogs();
   return (
     <table className="tableEdit">
       {
-        myData.map(b => (
+        myLogs.map(b => (
           <tr>
             <td>{b.day}</td>
             <td>{b.workout}</td>
