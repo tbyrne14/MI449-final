@@ -1,5 +1,6 @@
 .App {
-  text-align: center;
+  background-color: #dee1e7;
+  margin: 20px;
 }
 
 .App-logo {
@@ -35,4 +36,30 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.Welcome {
+  font-size: larger;
+  margin: 50px;
+  padding: 10px;
+  text-align: center;
+}
+
+.Before {
+  font-size: larger;
+  margin: 50px;
+  padding: 10px;
+  text-align: center;
+}
+
+.tableEdit {
+  border-spacing: 0 15px;
+  width: 1000px;
+  font-size: larger;
+  padding: 35px;
+  margin: auto;
+  border: 4px solid;
+  border-radius: 8px;
+  border-collapse: inherit;
+  text-align: center;
 }
